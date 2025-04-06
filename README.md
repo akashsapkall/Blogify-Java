@@ -59,5 +59,5 @@ BlogSphere is a full-stack blog application featuring user authentication, blog 
 ### Setup Steps
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/yourusername/blogsphere.git
-   cd blogsphere
+   git clone https://github.com/akashsapkall/blogify-java.git
+   cd blogify-java
