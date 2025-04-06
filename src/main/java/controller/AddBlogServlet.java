@@ -29,6 +29,18 @@ public class AddBlogServlet extends HttpServlet {
             response.sendRedirect("login.jsp");
             return;
         }
+     // Example error handling
+//        if (blog.getTitle().isEmpty()) {
+//            response.sendRedirect("add-blog.jsp?error=1");
+//            return;
+//        }
+
+//        try {
+//            // Save blog
+//            response.sendRedirect("add-blog.jsp?success=1");
+//        } catch (SQLException e) {
+//            response.sendRedirect("add-blog.jsp?error=2");
+//        }
         System.out.println(user);
         Blog blog = new Blog();
         blog.setTitle(request.getParameter("title"));
